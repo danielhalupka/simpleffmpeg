@@ -1,4 +1,4 @@
-package com.examples.ffmpeg4android
+package com.simpletask.ffmpegcordova;
 
 import java.io.BufferedOutputStream;
 import java.io.File;

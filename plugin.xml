@@ -11,36 +11,36 @@
     <author>Danijel Halupka (Simple-Task LLC)</author>
     <keywords>ffmpeg,cordova,command,line, android</keywords>
     <license>MIT</license>
-	<js-module src="www/simple-ffmpeg.js" name="SimpleFFMpeg">
+	<js-module src="www/simpleffmpeg.js" name="SimpleFFMpeg">
 		<clobbers target="window.SimpleFFMpeg" />
 	</js-module>  
     <platform name="android">
         <!-- android-specific elements -->
         <config-file target="config.xml" parent="/*">
             <feature name="SimpleFFMpeg">
-                <param name="android-package" value="com.simpletask.ffmpeg-cordova.SimpleFFMpeg" />
+                <param name="android-package" value="com.simpletask.ffmpegcordova.SimpleFFMpeg" />
             </feature>
         </config-file>
         <config-file target="AndroidManifest.xml" parent="/*">
             <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
             <uses-permission android:name="android.permission.WAKE_LOCK" /> 
         </config-file>
-        <source-file src="src/android/FFMpegControlerCord.java" target-dir="src/com/simpletask/ffmpeg-cordova" />   
-        <source-file src="src/android/SimpleFFMpeg.java" target-dir="src/com/simpletask/ffmpeg-cordova" />
-        <source-file src="src/android/packages/netcompss/ffmpeg4android/FFMpegRemoteServiceBridge.java" target-dir="src/com/netcompss/ffmpeg4android/" />
-        <source-file src="src/android/packages/netcompss/ffmpeg4android/LicenseCheckJNI.java" target-dir="src/com/netcompss/ffmpeg4android/" />
-        <source-file src="src/android/packages/netcompss/ffmpeg4android/MainAct.java" target-dir="src/com/netcompss/ffmpeg4android/" />
-        <source-file src="src/android/packages/netcompss/ffmpeg4android/ProgressBackgroundRemote.java" target-dir="src/com/netcompss/ffmpeg4android/" />
-        <source-file src="src/android/packages/netcompss/ffmpeg4android_client/Base.java" target-dir="src/com/netcompss/ffmpeg4android_client/" />
-        <source-file src="src/android/packages/netcompss/ffmpeg4android_client/BaseWizard.java" target-dir="src/com/netcompss/ffmpeg4android_client/" />
-        <source-file src="src/android/packages/netcompss/ffmpeg4android_client/CopyFileBackground.java" target-dir="src/com/netcompss/ffmpeg4android_client/" />
-        <source-file src="src/android/packages/netcompss/ffmpeg4android_client/FileUtils.java" target-dir="src/com/netcompss/ffmpeg4android_client/" />
-        <source-file src="src/android/packages/netcompss/ffmpeg4android_client/Prefs.java" target-dir="src/com/netcompss/ffmpeg4android_client/" />
-        <source-file src="src/android/packages/netcompss/ffmpeg4android_client/ShowFileAct.java" target-dir="src/com/netcompss/ffmpeg4android_client/" />
-        <source-file src="src/android/packages/netcompss/ffmpeg4android_client/SymLink.java" target-dir="src/com/netcompss/ffmpeg4android_client/" />
-        <source-file src="src/android/packages/netcompss/ffmpeg4android_client/TranscodeBackground.java" target-dir="src/com/netcompss/ffmpeg4android_client/" />
-        <source-file src="src/android/packages/netcompss/loader/LoadJNI.java" target-dir="src/com/netcompss/loader/" />
-        <source-file src="src/android/packages/netcompss/videokit/Videokit.java" target-dir="src/com/netcompss/videokit/" />
-        <source-file src="src/android/packages/example/DemoClient.java" target-dir="src/com/example/" />
+        <source-file src="src/android/FFMpegControlerCord.java" target-dir="src/com/simpletask/ffmpegcordova" />   
+        <source-file src="src/android/SimpleFFMpeg.java" target-dir="src/com/simpletask/ffmpegcordova" />
+        <source-file src="src/android/packages/netcompss/ffmpeg4android/FFMpegRemoteServiceBridge.java" target-dir="src/com/simpletask/ffmpegcordova" />
+        <source-file src="src/android/packages/netcompss/ffmpeg4android/LicenseCheckJNI.java" target-dir="src/com/simpletask/ffmpegcordova" />
+        <source-file src="src/android/packages/netcompss/ffmpeg4android/MainAct.java" target-dir="src/com/simpletask/ffmpegcordova" />
+        <source-file src="src/android/packages/netcompss/ffmpeg4android/ProgressBackgroundRemote.java" target-dir="src/com/simpletask/ffmpegcordova" />
+        <source-file src="src/android/packages/netcompss/ffmpeg4android_client/Base.java" target-dir="src/com/simpletask/ffmpegcordova" />
+        <source-file src="src/android/packages/netcompss/ffmpeg4android_client/BaseWizard.java" target-dir="src/com/simpletask/ffmpegcordova" />
+        <source-file src="src/android/packages/netcompss/ffmpeg4android_client/CopyFileBackground.java" target-dir="src/com/simpletask/ffmpegcordova" />
+        <source-file src="src/android/packages/netcompss/ffmpeg4android_client/FileUtils.java" target-dir="src/com/simpletask/ffmpegcordova" />
+        <source-file src="src/android/packages/netcompss/ffmpeg4android_client/Prefs.java" target-dir="src/com/simpletask/ffmpegcordova" />
+        <source-file src="src/android/packages/netcompss/ffmpeg4android_client/ShowFileAct.java" target-dir="src/com/simpletask/ffmpegcordova" />
+        <source-file src="src/android/packages/netcompss/ffmpeg4android_client/SymLink.java" target-dir="src/com/simpletask/ffmpegcordova" />
+        <source-file src="src/android/packages/netcompss/ffmpeg4android_client/TranscodeBackground.java" target-dir="src/com/simpletask/ffmpegcordova" />
+        <source-file src="src/android/packages/netcompss/loader/LoadJNI.java" target-dir="src/com/simpletask/ffmpegcordova" />
+        <source-file src="src/android/packages/netcompss/videokit/Videokit.java" target-dir="src/com/simpletask/ffmpegcordova" />
+        <source-file src="src/android/packages/example/DemoClient.java" target-dir="src/com/simpletask/ffmpegcordova" />
         </platform>
 </plugin>
