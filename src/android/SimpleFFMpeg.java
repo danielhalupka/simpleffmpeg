@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.simpletask.ffmpeg-cordova;
+package com.simpletask.ffmpegcordova;
 
 import android.app.Activity;
 import android.content.Context;
@@ -19,7 +19,7 @@ import org.json.JSONObject;
  *
  * @author Dax
  */
-public class ImageViewer extends CordovaPlugin {
+public class SimpleFFMpeg extends CordovaPlugin {
 
     public static final String ACTION_EXECUTE_FFMPEG = "callFFMpeg";
 
